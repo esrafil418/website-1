@@ -1,0 +1,405 @@
+p {
+    color: red;
+}
+
+div {
+    color: rgb(68, 14, 139);
+}
+
+hr {
+    border-width: 3px;
+}
+
+table,
+th,
+td {
+    border: 1px solid
+}
+
+.h2 {
+    color: rgba(68, 50, 130, .3)
+}
+
+#div3 {
+    color: #6be619
+}
+
+.div4 {
+    color: hsl(44, 94%, 51%)
+}
+
+#p700 {
+    color: hwb(231 16% 9%)
+}
+
+#div505 {
+    width: 300px;
+    height: 300px;
+    background-image: url('image/infinite.jpg');
+}
+
+
+/* body {
+    background-image: url('image/download.jpeg');
+    background-repeat: no-repeat; */
+
+
+/* background-repeat: repeat-y;
+} */
+
+.div44 {
+    font-size: 50px;
+}
+
+#p69 {
+    font-size: 80px;
+}
+
+body {
+    background-image: url('image/infinite.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* fixed , local */
+}
+
+#p00 {
+    border: 10px solid green;
+    padding: 8px;
+    background-color: rgb(177, 96, 96);
+}
+
+.border-box {
+    background-clip: border-box;
+}
+
+.padding-box {
+    background-clip: padding-box;
+}
+
+.content-box {
+    background-clip: content-box;
+}
+
+.text {
+    background-clip: text;
+}
+
+
+/* possion */
+
+
+/* div {
+    background-image: url('image/350_150.png');
+    border: 10px dotted lightgreen;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+} */
+
+
+/* div {
+    background-image: url('image/350_150.png');
+    border: 10px dotted lightgreen;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: 10% 30%;
+    background-position: 100px 22px;
+} */
+
+
+/* div {
+    background-image: url('image/350_150.png');
+    border: 10px dotted lightgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-size: 40px 100px;
+} */
+
+
+/* div {
+    background: url('image/350_150.png') no-repeat fixed center top; */
+
+background: color img position size repeat origin clip attachment;
+border: 10px dotted lightgreen;
+
+}
+*/ div {
+    /* border-style: dotted; */
+    /* border-style: dashed; */
+    /* border-style: solid; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: none; */
+    /* border-style: hidden; */
+    /* div { */
+    /* border-width: 10px; */
+    /* border-width: thick; */
+    /* border-width: 10px 20px 10px 30px; مانند عقربه های ساعت
+
+
+/* div {
+    border-style: solid;
+    border-color: red;
+    border-color: red green;
+    border-radius: 2px;
+} */
+    /* div {
+    border: 1px solid red;
+    border-bottom: 2px solid blue; از پایین 2پیکسل ساده آبی بوردر آبی بذار
+} */
+    /* * {
+    margin: auto;
+} */
+    /* p {
+    border: 3px solid black;
+    background-color: lightpink; */
+    /* margin: 10%; */
+    /* margin: 10px; */
+    /* margin: 0; */
+}
+
+/* div {
+    width: 400px;
+    border: 2px solid red; */
+
+/* margin: auto; */
+
+/* margin-left: 10px; */
+
+/* margin-top: 400px; */
+
+}
+
+/* .first {
+    margin-bottom: 40px;
+}
+
+.second {
+    margin-top: 80px;
+} */
+
+/* div {
+    width: 50%;
+    max-width: 500px;
+    min-width: 200px;
+    max-height: 500px;
+    min-height: 200px;
+    height: 600px;
+    background-color: lightseagreen;
+} */
+
+/* outline */
+
+/* div {
+    width: 400px;
+    height: 400px;
+    background-color: lightskyblue;
+    border: 3px solid red;
+    margin: 50px;
+    padding: 100px;
+}
+
+p {
+    border: 2px solid white;
+    padding: 20px;
+    margin: 30px;
+    width: 30px;
+} */
+
+/* p {
+    border: 2px solid red;
+    outline: 2px dashed blue;
+    outline-offset: 10px;
+} */
+
+/* body {
+    color: green;
+}
+
+p.red {
+    color: red;
+} */
+
+/* p {
+    border: 2px solid red;
+    text-align: center;
+} */
+
+/* 
+img {
+    text-align: center;
+} */
+
+/* div {
+    border: 1px solid red;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+} */
+
+/* div {
+    direction: rtl;
+} */
+
+/* img.top {
+    vertical-align: top;
+}
+img.middle {
+    vertical-align: middle;
+}
+img.bottom {
+    vertical-align: bottom;
+} */
+.12mm {
+    text-transform: uppercase;
+}
+
+/* p {
+    text-transform: capitalize;
+} */
+
+/* p {
+    text-indent: 30px;
+} */
+p {
+    /* letter-spacing: 5px; */
+    /* line-height: 2; */
+    /* word-spacing: 20px; */
+    /* white-space: nowrap; */
+}
+
+/* 
+h1 {
+    text-shadow: 2px 2px 5px red;
+} */
+
+/* div {
+    width: 150px;
+    border: 3px solid red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+/* .serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+} */
+
+/* p {
+    font-style: italic;
+} */
+
+/* p {
+    font-weight: 200;
+} */
+
+/* p {
+    font-size: 10vw;
+} */
+
+/* p {
+    font: 20px arial;
+} */
+
+/* 
+p {
+    direction: rtl;
+    font-family: IranNastaliq, tahoma;
+} */
+
+/* اضافه کردن فونت های خارجی به کد ها */
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('fonts/IranNastaliq.eot') format('eot');
+    src: url('fonts/IranNastaliq.ttf') format('ttf');
+    src: url('fonts/IranNastaliq.woff') format('woff');
+}
+p {
+    direction: rtl;
+    font-family: IranNastaliq;
+}
+
+/* آدرس یک سند سی اس اس جدا که در اون استایل دادیم */
+
+/* import باید در خط اول باشد */
+
+/* @import 'custom.css'; */
+
+/* @import 'custom.css' screen and (max-width: 500px); */
+
+/* @import url('custom.css'); */
+
+/* استایل لینک ها */
+
+/* a:link {
+    color: hotpink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: orange;
+}
+
+p:hover {
+    color: red;
+}
+
+a:active {
+    color: white;
+} */
+
+/* a {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    cursor: pointer;
+} */
+ul {
+    /* list-style-type: square; */
+    /* list-style-type: circle; */
+}
+ol {
+    /* list-style-type: upper-roman; */
+    /* list-style-type: upper-alpha; */
+}
+ul {
+    /* list-style-image: url('image/350_150.png'); */
+}
+ul {
+    /* list-style-type: none;
+    padding: 0;
+    margin: 0; */
+}
+ul {
+    /* background-color: #3399ff;
+    padding: 20px; */
+    /* list-style-position: inside; */
+}
+li {
+    /* background-color: #cce5ff;
+    padding: 5px;
+    margin-left: 35px; */
+}
+ul {
+    /* list-style: square inside url('image/350_150.png'); */
+}

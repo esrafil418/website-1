@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css" type="text/css" media="all" />
+</head>
+
+<body>
+
+    <!-- for writing -->
+    <h1>Hi</h1>
+    <p> Hello </p>
+    <span>Loop Cafe</span>
+    <i>loop movie</i>
+    <!-- for more space we can use (( &nbsp; )) or use pre tag -->
+    <b>loop &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; academy</b>
+    <pre> for           space             using     </pre>
+    <!-- use (( &lt; )) for writing code  -->
+    <pre>
+        &lt;html&gt;              
+   &lt;head&gt;
+       &lt;title>This is the title&lt;/title&gt;
+   &lt;/head>                
+   &lt;body&gt;
+   &lt;/body&gt;
+           
+&lt;/html&gt;
+    </pre>
+    <!-- Division -->
+    <div>
+        <h2>test for <em> color </em> of dive</h2>
+        <hr>
+        <p>Lorem ipsum <strong> dolor </strong> sit amet consectetur adipisicing elit.</p>
+        <hr>
+        <h4>Lorem ipsum dolor <br> sit amet consectetur adipisicing elit.</h4>
+        <p>L</p>
+        <h5>See</h5>
+    </div>
+    <!-- header  -->
+    <header>
+        <h1>one</h1>
+        <h3>two</h3>
+    </header>
+    <!-- list  -->
+    <ul>
+        <li>pointes list</li>
+        <li>end</li>
+    </ul>
+    <ol>
+        <li>number list</li>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <!-- use type for list  -->
+    <ol type="a">
+        <li>number list</li>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <ol start="40">
+        <li>number list</li>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+    <!-- other list  -->
+    <dl>
+        <dt>Benz</dt>
+        <dd>BMW</dd>
+        <dl>phone</dl>
+        <dd>apple</dd>
+    </dl>
+
+    <!-- link, target (new tab) -->
+    <a href="http://www.apple.com" target="_blank" title="apple">New tab Opening</a>
+    <hr>>
+    <!-- inside link -->
+    <a href="blog/blog1.htm">Clickkkk</a>
+
+    <!-- image map - don't forgot usemap(#) - name -->
+    <img src="image/Infinit.jpg" alt="" usemap="#area" />
+    <map name="area">
+        <area shape="circle" coords="345,311,139" href="https://www.image-map.net/" alt="" />
+    </map>
+
+    <!-- </picture>  -->
+    <picture>
+        <source srcset="image/Infinit.jpg, image/sunset 2x" media="(min-width: 790px)" type="image/jpeg">
+        <source srcset="image/sunset.jpg" media="(min-width: 124px)" sizes="80vw">
+        <source srcset="image/sunset.jpg" media="(min-width: 124px)" and (orientation: landscape)>
+        <source srcset="image/sunset.jpg" media="(min-width: 124px)" and (orientation: portrait)>
+        <img src="image/fox.jpg" alt="">
+    </picture>
+    <hr> <br> <br>
+
+    <!-- </table> -->
+    <table>
+        <colgroup>
+            <col style="background-color: yellow;">
+            <col span="2"> style="background-color: red;">
+            <col style="background-color: green;">
+        </colgroup>
+        <caption>Test table</caption>
+        <thead>
+            <tr>
+                <th colspan="2">head 1</th>
+                <th>head 2</th>
+                <th>head 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">data 1</td>
+                <td>data 2</td>
+                <td>data 3</td>
+                <td>data 4</td>
+                <td>data 5</td>
+            </tr>
+            <tr>
+                <td>data 3</td>
+                <td>data 3</td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <td>data 3</td>
+                <td>data 3</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>data 3</td>
+
+            </tr>
+        </tfoot>
+    </table>
+    <hr> <br>
+
+    <!-- forms  -->
+    <form action="https://www.f2m.site/category/film/top-movies/" method="post" target="_blank" autocomplete="on" enctype="application/x-www-form-urlencoded" novalidate>
+        Name: <input type="text" name="action">
+        <button type="submit" name="submit">Click</button>
+    </form>
+    <hr> <br>
+
+
+    <form>
+        <label for="">Name120</label>
+        <input type="button" value="submit">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="email">
+        <input type="file">
+        <input type="hidden" value="">
+        <input type="month" value="">
+        <input type="number" value="">
+        <input type="password">
+        <input type="radio" name="rad" checked>
+        <input type="radio" name="rad">
+        <input type="radio" name="rad">
+        <input type="radio" name="rud">
+        <hr> <br>
+        <input type="range">
+        <input type="search">
+        <input type="submit" value="Search" />
+        <input type="tel">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+        <input type="color" disabled>
+        <input type="text" placeholder="Search" readonly>
+    </form>
+    <hr> <br>
+
+    <!-- progress -->
+    <label for="progress">html</label>
+    <progress max="100" value="40">
+        40%
+    </progress>
+
+    <label for="car">a car</label>
+    <select multiple>
+    <optgroup label="caring">
+        <option value="">BMW</option>
+        <option value="" selected>Benz</option>
+        <option value="" disabled>Ford</option>
+        </select>
+    </optgroup>
+    <hr> <br>
+
+    <!-- form  -->
+    <textarea name="form" id="form" rows="10" cols="80" wrap="soft" placeholder="Enter your name">
+    </textarea>
+    <input type="submit">
+    <hr> <br>
+
+    <input list="data-list" id="lis-one">
+
+    <datalist id="data-list">
+        <option value="Hi">
+        <option value="Zyan">
+        <option value="Adios">
+        <option value="Gone">
+        <option value="Salut">
+        <option value="Como?">
+    </datalist>
+
+    <!-- video  -->
+    <video width="640" height="480" controls poster="image/fox.jpg" muted preload="metadata">
+        <source src="Better.Call.Saul.S04E07.mp4" type="video/mp4"></source>
+    </video>
+    <hr> <br>
+
+    <!-- link access  -->
+    <a href="blog/blog1.htm" accesskey="z">AZ</a>
+
+    <!-- edited  -->
+    <p contenteditable="true" spellcheck="true" hidden>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore deleniti dolor quis accusantium quibusdam, commodi iste eligendi, eos ab nisi consequatur sequi nostrum repudiandae quae ut. Excepturi omnis nostrum deserunt.</p>
+    <p dir="rtl">سلام</p>
+
+    <ul>
+        <li data-company="5500">Benz</li>
+        <li data-company="4400">BMW</li>
+        <li data-company="5450">Ford</li>
+    </ul>
+    <hr> <br>
+
+    <!-- spellcheck  -->
+    <input type="text" spellcheck="true">
+    <p spellcheck="true" id="p700">helo im esrafil</p>
+
+    <!-- select with tab -->
+    <div tabindex="2" id="div3">
+        google.com
+    </div>
+    <div tabindex="1" title="apple" class="div4">
+        bing.com
+    </div>
+
+    <!-- یک کلاس چندین اسپیس میگیرد اما آی دی نه -->
+    <div class="header" id="head">
+        <div id="register">
+            <p>
+                <div>
+                    <ul>
+
+                    </ul>
+                </div>
+            </p>
+        </div>
+    </div>
+
+    <p draggable="true" class="h2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto accusantium tempora nostrum? Tempora nesciunt provident obcaecati praesentium necessitatibus tempore ducimus quisquam ipsum aspernatur itaque ex deserunt accusamus, cupiditate pariatur
+        non?
+    </p>
+
+    <div id="div505"></div>
+
+    <div class="div44">
+        <p id="p69">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+    </div>
+    <hr>
+    <hr> <br>
+
+    <!-- css padding margin border  -->
+    <p class="border-box" id="p00">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    <p class="padding-box" id="p00">Lorem ipsum dolor, sit amet conconsectetur adipisicing elit.</p>
+    <p class="content-box" id="p00">Lorem ipsum dolor, sit amamet consectetur adipisicing elit.</p>
+    <p class="text" id="p00">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+    <p class="12mm"> ;"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    </p>
+
+    <!-- <p class="serif">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae doloremque aliquam ut quia illum. Ipsa praesentium necessitatibus labore reprehenderit maxime fugiat facilis voluptatum nemo! Accusamus rerum eos asperiores voluptates!
+    </p>
+    <p class="sansserif">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae doloremque aliquam ut quia illum. Ipsa praesentium necessitatibus labore reprehenderit maxime fugiat facilis voluptatum nemo! Accusamus rerum eos asperiores voluptates!
+    </p>
+    <p class="monospace">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repudiandae doloremque aliquam ut quia illum. Ipsa praesentium necessitatibus labore reprehenderit maxime fugiat facilis voluptatum nemo! Accusamus rerum eos asperiores voluptates!
+    </p> -->
+
+</body>
+
+</html>
